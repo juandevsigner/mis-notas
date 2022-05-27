@@ -49,11 +49,7 @@ const NotasContainer = styled.div`
 const Notas = ({ notas, setNota, eliminarNota }) => {
   return (
     <Div>
-      {notas.length !== 0 ? (
-        <H1>Mis Notas</H1>
-      ) : (
-        <H1>Aún no tienes Notas D:</H1>
-      )}
+      {notas.length !== 0 ? <H1>Mis Notas</H1> : <H1> No tienes Notas D:</H1>}
       <NotasContainer>
         {notas.map((nota) => (
           <Nota
