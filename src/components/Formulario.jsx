@@ -215,7 +215,7 @@ const Formulario = ({ nota, setNota, notas, setNotas }) => {
 
           <InputBTN
             type="submit"
-            value={nota.id ? "GUARDAR CAMBIOS" : "AGREGAR RECORDATORIO"}
+            value={nota.id ? "GUARDAR CAMBIOS" : "AGREGAR NOTA"}
           />
         </Form>
       )}
